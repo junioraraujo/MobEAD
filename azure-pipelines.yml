@@ -28,7 +28,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'mkdir MobEAD'
+    script: 'mkdir C:\Users\Júnior\Downloads\agent\_work\1\MobEAD'
   continueOnError: true
     #workingDirectory: # Optional
     #failOnStderr: false # Optional
