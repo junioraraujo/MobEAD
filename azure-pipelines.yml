@@ -28,7 +28,8 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'mkdir d:\a\1\MobEAD | true'
+    script: 'mkdir d:\a\1\MobEAD'
+  continueOnError: true
     #workingDirectory: # Optional
     #failOnStderr: false # Optional
 
